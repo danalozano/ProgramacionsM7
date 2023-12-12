@@ -24,6 +24,12 @@
                     <x-nav-link href="{{ route('ras.index') }}" :active="request()->routeIs('ras*')">
                         {{ __('RAs') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('continguts.index') }}" :active="request()->routeIs('continguts*')">
+                        {{ __('Continguts') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('criteris.index') }}" :active="request()->routeIs('criteris*')">
+                        {{ __('Criteris') }}
+                    </x-nav-link>
                 </div>
             </div>
 
