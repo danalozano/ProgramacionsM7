@@ -6,6 +6,8 @@ use App\Http\Controllers\RaController;
 use App\Http\Controllers\UfController;
 use App\Http\Controllers\ContingutController;
 use App\Http\Controllers\CriteriController;
+use App\Http\Controllers\ActivitatController;
+
 
 
 /*
@@ -27,6 +29,8 @@ Route::resource('/ufs', UfController::class);
 Route::resource('/ras', RaController::class);
 Route::resource('/continguts', ContingutController::class);
 Route::resource('/criteris', CriteriController::class);
+Route::resource('/activitats', ActivitatController::class);
+
 
 
 
