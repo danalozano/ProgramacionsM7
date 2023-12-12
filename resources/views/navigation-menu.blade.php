@@ -33,6 +33,9 @@
                     <x-nav-link href="{{ route('activitats.index') }}" :active="request()->routeIs('activitats*')">
                         {{ __('Activitats') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('programacions.index') }}" :active="request()->routeIs('programacions*')">
+                        {{ __('Programacions') }}
+                    </x-nav-link>
                 </div>
             </div>
 
